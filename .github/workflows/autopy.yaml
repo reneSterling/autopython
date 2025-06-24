@@ -22,4 +22,7 @@ jobs:
 
       - name: running test
         run: python -m unittest discover
+
+      - name: install and run flake8
+        run: flake8 .
         
